@@ -10,6 +10,16 @@
 		84681DD5217AB05700A139EB /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681DD4217AB05700A139EB /* TabsViewController.swift */; };
 		84681DD8217AB13600A139EB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681DD7217AB13600A139EB /* UIColorExtension.swift */; };
 		84681DDA217AB3FF00A139EB /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681DD9217AB3FF00A139EB /* UIViewExtension.swift */; };
+		84681DE7217AB81D00A139EB /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84681DE0217AB81D00A139EB /* Cairo-ExtraLight.ttf */; };
+		84681DE8217AB81D00A139EB /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84681DE1217AB81D00A139EB /* Cairo-SemiBold.ttf */; };
+		84681DE9217AB81D00A139EB /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84681DE2217AB81D00A139EB /* Cairo-Regular.ttf */; };
+		84681DEA217AB81D00A139EB /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84681DE3217AB81D00A139EB /* Cairo-Light.ttf */; };
+		84681DEB217AB81D00A139EB /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84681DE4217AB81D00A139EB /* Cairo-Black.ttf */; };
+		84681DEC217AB81D00A139EB /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84681DE5217AB81D00A139EB /* Cairo-Bold.ttf */; };
+		84681DF0217ABA1000A139EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681DEF217ABA1000A139EB /* HomeViewController.swift */; };
+		84681E09217ABDF300A139EB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84681DF6217ABDF300A139EB /* Roboto-Regular.ttf */; };
+		84681E1A217ABF3900A139EB /* UserHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681E19217ABF3900A139EB /* UserHomeCollectionViewCell.swift */; };
+		84681E1C217ACC2500A139EB /* PostHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681E1B217ACC2500A139EB /* PostHomeTableViewCell.swift */; };
 		84BB3211217AA6B800ACEB22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB3210217AA6B800ACEB22 /* AppDelegate.swift */; };
 		84BB3216217AA6B800ACEB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BB3214217AA6B800ACEB22 /* Main.storyboard */; };
 		84BB3218217AA6BA00ACEB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BB3217217AA6BA00ACEB22 /* Assets.xcassets */; };
@@ -22,6 +32,16 @@
 		84681DD4217AB05700A139EB /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
 		84681DD7217AB13600A139EB /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		84681DD9217AB3FF00A139EB /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		84681DE0217AB81D00A139EB /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		84681DE1217AB81D00A139EB /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		84681DE2217AB81D00A139EB /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		84681DE3217AB81D00A139EB /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		84681DE4217AB81D00A139EB /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		84681DE5217AB81D00A139EB /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		84681DEF217ABA1000A139EB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84681DF6217ABDF300A139EB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		84681E19217ABF3900A139EB /* UserHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		84681E1B217ACC2500A139EB /* PostHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHomeTableViewCell.swift; sourceTree = "<group>"; };
 		84BB320D217AA6B800ACEB22 /* Sarygram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sarygram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BB3210217AA6B800ACEB22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BB3215217AA6B800ACEB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +85,7 @@
 		84681DD1217AB02100A139EB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				84681DEE217AB9E900A139EB /* View Controllers */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -104,6 +125,54 @@
 			name = Assets;
 			sourceTree = "<group>";
 		};
+		84681DDE217AB80A00A139EB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84681DF1217ABDF300A139EB /* Roboto */,
+				84681DDF217AB81D00A139EB /* Cairo */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		84681DDF217AB81D00A139EB /* Cairo */ = {
+			isa = PBXGroup;
+			children = (
+				84681DE0217AB81D00A139EB /* Cairo-ExtraLight.ttf */,
+				84681DE1217AB81D00A139EB /* Cairo-SemiBold.ttf */,
+				84681DE2217AB81D00A139EB /* Cairo-Regular.ttf */,
+				84681DE3217AB81D00A139EB /* Cairo-Light.ttf */,
+				84681DE4217AB81D00A139EB /* Cairo-Black.ttf */,
+				84681DE5217AB81D00A139EB /* Cairo-Bold.ttf */,
+			);
+			path = Cairo;
+			sourceTree = "<group>";
+		};
+		84681DEE217AB9E900A139EB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84681DEF217ABA1000A139EB /* HomeViewController.swift */,
+				84681E18217ABF1B00A139EB /* Cells */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		84681DF1217ABDF300A139EB /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				84681DF6217ABDF300A139EB /* Roboto-Regular.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		84681E18217ABF1B00A139EB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84681E19217ABF3900A139EB /* UserHomeCollectionViewCell.swift */,
+				84681E1B217ACC2500A139EB /* PostHomeTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		84BB3204217AA6B800ACEB22 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +198,7 @@
 				84681DD0217AB01100A139EB /* Modules */,
 				84681DD6217AB11800A139EB /* Utilities */,
 				84681DDC217AB49700A139EB /* Storyboards */,
+				84681DDE217AB80A00A139EB /* Fonts */,
 				84681DDD217AB4DB00A139EB /* Assets */,
 			);
 			path = Sarygram;
@@ -201,9 +271,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84681DE9217AB81D00A139EB /* Cairo-Regular.ttf in Resources */,
 				84BB321B217AA6BA00ACEB22 /* LaunchScreen.storyboard in Resources */,
 				84BB3218217AA6BA00ACEB22 /* Assets.xcassets in Resources */,
+				84681DEB217AB81D00A139EB /* Cairo-Black.ttf in Resources */,
+				84681E09217ABDF300A139EB /* Roboto-Regular.ttf in Resources */,
+				84681DE8217AB81D00A139EB /* Cairo-SemiBold.ttf in Resources */,
 				84BB3216217AA6B800ACEB22 /* Main.storyboard in Resources */,
+				84681DE7217AB81D00A139EB /* Cairo-ExtraLight.ttf in Resources */,
+				84681DEC217AB81D00A139EB /* Cairo-Bold.ttf in Resources */,
+				84681DEA217AB81D00A139EB /* Cairo-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84681DF0217ABA1000A139EB /* HomeViewController.swift in Sources */,
+				84681E1C217ACC2500A139EB /* PostHomeTableViewCell.swift in Sources */,
 				84BB3211217AA6B800ACEB22 /* AppDelegate.swift in Sources */,
+				84681E1A217ABF3900A139EB /* UserHomeCollectionViewCell.swift in Sources */,
 				84681DD5217AB05700A139EB /* TabsViewController.swift in Sources */,
 				84681DD8217AB13600A139EB /* UIColorExtension.swift in Sources */,
 				84681DDA217AB3FF00A139EB /* UIViewExtension.swift in Sources */,

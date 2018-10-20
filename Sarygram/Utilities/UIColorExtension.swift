@@ -9,6 +9,10 @@
 import UIKit
 
 extension UIColor {
+    
+    static let mainAppColor = UIColor.hexColor(hex: "3023ae")
+    static let secondaryAppColor = UIColor.hexColor(hex: "c86dd7")
+    
     class func hexColor(hex: String) -> UIColor {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         
