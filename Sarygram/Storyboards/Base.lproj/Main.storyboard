@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tabs View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TabsViewController" customModule="Sarygram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QX0-Le-gqQ">
+                                <rect key="frame" x="0.0" y="606" width="375" height="61"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ryo-4s-zUy">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="61"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJU-0N-5ST">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="61"/>
+                                                <state key="normal" image="settings"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5H1-yZ-JQa">
+                                                <rect key="frame" x="75" y="0.0" width="75" height="61"/>
+                                                <state key="normal" image="search"/>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IHI-8h-3Ad">
+                                                <rect key="frame" x="150" y="0.0" width="75" height="61"/>
+                                                <subviews>
+                                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jW3-ud-Dau">
+                                                        <rect key="frame" x="12.5" y="5.5" width="50" height="50"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kT-Tp-gSq">
+                                                                <rect key="frame" x="15" y="15" width="20" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="20" id="7nB-QQ-Hn9"/>
+                                                                    <constraint firstAttribute="height" constant="20" id="lNp-IH-6nt"/>
+                                                                </constraints>
+                                                                <state key="normal" image="home"/>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.18823529411764706" green="0.13725490196078433" blue="0.68235294117647061" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="BQV-Wv-qfL"/>
+                                                            <constraint firstItem="1kT-Tp-gSq" firstAttribute="centerY" secondItem="jW3-ud-Dau" secondAttribute="centerY" id="aAp-VO-9pc"/>
+                                                            <constraint firstItem="1kT-Tp-gSq" firstAttribute="centerX" secondItem="jW3-ud-Dau" secondAttribute="centerX" id="hTR-5u-rrY"/>
+                                                            <constraint firstAttribute="width" constant="50" id="m7s-Qc-89s"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="25"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="jW3-ud-Dau" firstAttribute="centerY" secondItem="IHI-8h-3Ad" secondAttribute="centerY" id="V6d-QQ-r1J"/>
+                                                    <constraint firstItem="jW3-ud-Dau" firstAttribute="centerX" secondItem="IHI-8h-3Ad" secondAttribute="centerX" id="YPs-6l-Pqg"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvG-Pg-9ED">
+                                                <rect key="frame" x="225" y="0.0" width="75" height="61"/>
+                                                <state key="normal" image="heart"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1N-k6-ken">
+                                                <rect key="frame" x="300" y="0.0" width="75" height="61"/>
+                                                <state key="normal" image="avatar"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.97254901960784312" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ryo-4s-zUy" firstAttribute="leading" secondItem="QX0-Le-gqQ" secondAttribute="leading" id="18E-rt-wwa"/>
+                                    <constraint firstAttribute="height" constant="61" id="U2E-bG-RJ5"/>
+                                    <constraint firstItem="ryo-4s-zUy" firstAttribute="top" secondItem="QX0-Le-gqQ" secondAttribute="top" id="aQo-QJ-Heb"/>
+                                    <constraint firstAttribute="bottom" secondItem="ryo-4s-zUy" secondAttribute="bottom" id="baS-gV-wdo"/>
+                                    <constraint firstAttribute="trailing" secondItem="ryo-4s-zUy" secondAttribute="trailing" id="pDc-zL-JDw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QX0-Le-gqQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Q4m-tm-k0h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QX0-Le-gqQ" secondAttribute="trailing" id="i6A-qV-zq8"/>
+                            <constraint firstItem="QX0-Le-gqQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qxz-Kd-fyE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="homeButtonView" destination="jW3-ud-Dau" id="5eQ-OK-iW9"/>
+                        <outlet property="tabsButtonsView" destination="QX0-Le-gqQ" id="bQp-z0-9HS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="avatar" width="21" height="24"/>
+        <image name="heart" width="26" height="24"/>
+        <image name="home" width="19" height="19"/>
+        <image name="search" width="25" height="25"/>
+        <image name="settings" width="26" height="26"/>
+    </resources>
+</document>
