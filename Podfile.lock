@@ -1,3 +1,28 @@
-PODFILE CHECKSUM: 2c3ad898d755566565940cd0bddc2ff19fa586cc
+PODS:
+  - Alamofire (4.7.3)
+  - Kingfisher (4.10.0)
+  - SCLAlertView (0.8)
+  - SkeletonView (1.4.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Kingfisher (~> 4.0)
+  - SCLAlertView
+  - SkeletonView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - SCLAlertView
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SkeletonView: 60d6ce7edb0cb4c7758db33c74add50392b3c475
+
+PODFILE CHECKSUM: 5f2a6d3e6a758caac872408d5d3164009e69e9c4
 
 COCOAPODS: 1.5.3

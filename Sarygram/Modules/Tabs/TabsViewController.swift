@@ -18,7 +18,12 @@ class TabsViewController: UIViewController {
         
         let gradientColors = [UIColor.mainAppColor.cgColor, UIColor.secondaryAppColor.cgColor]
         homeButtonView.addGradientLayer(colors: gradientColors, locations: [0.0 , 1.2])
-        tabsButtonsView.addShadow(location: .top, color: UIColor.black, opacity: 0.62, radius: 0.5, height: 0.1)
     }
 
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        tabsButtonsView.layer.addBorder(edge: .top, color: UIColor.lightGray, thickness: 0.2)
+    }
 }
